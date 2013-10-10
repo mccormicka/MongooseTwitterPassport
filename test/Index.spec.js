@@ -2,7 +2,7 @@
 
 describe('MongooseExtension Tests', function () {
 
-    var mockgoose = require('Mockgoose');
+    var mockgoose = require('mockgoose');
     var mongoose = require('mongoose');
     mockgoose(mongoose);
     var db = mongoose.createConnection('mongodb://localhost:3001/Whatever');
